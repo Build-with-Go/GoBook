@@ -22,6 +22,9 @@
   - [🔐 Auth & Security](#-auth--security)
   - [🧪 Testing](#-testing)
   - [📦 Utilities](#-utilities)
+  - [📨 Messaging & Queues](#-messaging--queues)
+  - [📁 File Storage](#-file-storage)
+  - [⏰ Scheduling](#-scheduling)
   - [🚀 Concurrency](#-concurrency)
   - [🤖 AI/ML](#-aiml)
   - [🎨 UI/Frontend](#-uifrontend)
@@ -47,8 +50,9 @@
 1. Browse categories via the Table of Contents  
 2. Click a package name to visit its GitHub repo  
 3. Read the description and check `go.mod` compatibility  
-4. Star repos you like — it helps maintainers!
-5. > 💡 **Note**: Packages marked with ⭐ are created by [@ez0000001000000](https://github.com/ez0000001000000).
+4. ⭐ Star repos you like — it helps maintainers!
+
+> 💡 **Note**: Packages marked with ⭐ are created by [@ez0000001000000](https://github.com/ez0000001000000).
 
 🔎 *Search tip*: Use `Ctrl+F` / `Cmd+F` to find packages fast.
 
@@ -66,7 +70,7 @@
 | [htmlquery](https://github.com/antchfx/htmlquery) | XPath query support for HTML/XML documents with streaming. | [![Stars](https://img.shields.io/github/stars/antchfx/htmlquery?style=social)](https://github.com/antchfx/htmlquery) |
 | [rod](https://github.com/go-rod/rod) | DevTools driver for browser automation and scraping. High-level API, headless Chrome support. | [![Stars](https://img.shields.io/github/stars/go-rod/rod?style=social)](https://github.com/go-rod/rod) |
 
-> 🛠️ *Building a scraper? Start with [Goop](https://github.com/ez0000001000000/Goop) for simple tasks, or [rod](https://github.com/go-rod/rod) for dynamic JS-heavy sites.*
+> 🛠️ *Building a scraper? Start with [Goop](https://github.com/ez0000001000000/Goop) ⭐ for simple tasks, or [rod](https://github.com/go-rod/rod) for dynamic JS-heavy sites.*
 
 ---
 
@@ -78,6 +82,8 @@
 | [echo](https://github.com/labstack/echo) | High-performance, minimalist framework with extensible middleware. | [![Stars](https://img.shields.io/github/stars/labstack/echo?style=social)](https://github.com/labstack/echo) |
 | [fiber](https://github.com/gofiber/fiber) | Express.js-inspired framework built on Fasthttp. Zero allocation router. | [![Stars](https://img.shields.io/github/stars/gofiber/fiber?style=social)](https://github.com/gofiber/fiber) |
 | [chi](https://github.com/go-chi/chi) | Lightweight, idiomatic router. Standard library compatible, middleware-friendly. | [![Stars](https://img.shields.io/github/stars/go-chi/chi?style=social)](https://github.com/go-chi/chi) |
+| [beego](https://github.com/beego/beego) | Full-featured web framework with ORM, cache, session management, and admin panel. | [![Stars](https://img.shields.io/github/stars/beego/beego?style=social)](https://github.com/beego/beego) |
+| [buffalo](https://github.com/gobuffalo/buffalo) | Rapid web development framework with hot-reload, generators, and plugins. | [![Stars](https://img.shields.io/github/stars/gobuffalo/buffalo?style=social)](https://github.com/gobuffalo/buffalo) |
 
 ---
 
@@ -100,6 +106,9 @@
 | [sqlc](https://github.com/sqlc-dev/sqlc) | Generate type-safe Go code from SQL. No runtime ORM overhead. | [![Stars](https://img.shields.io/github/stars/sqlc-dev/sqlc?style=social)](https://github.com/sqlc-dev/sqlc) |
 | [ent](https://github.com/facebook/ent) | Entity framework with schema-first design and code generation. | [![Stars](https://img.shields.io/github/stars/facebook/ent?style=social)](https://github.com/facebook/ent) |
 | [pgx](https://github.com/jackc/pgx) | Powerful PostgreSQL driver and toolkit. Pure Go, high performance. | [![Stars](https://img.shields.io/github/stars/jackc/pgx?style=social)](https://github.com/jackc/pgx) |
+| [sqlx](https://github.com/jmoiron/sqlx) | Extensions to database/sql for easier queries and struct scanning. | [![Stars](https://img.shields.io/github/stars/jmoiron/sqlx?style=social)](https://github.com/jmoiron/sqlx) |
+| [sqlboiler](https://github.com/volatiletech/sqlboiler) | Generate type-safe Go code from your database schema. | [![Stars](https://img.shields.io/github/stars/volatiletech/sqlboiler?style=social)](https://github.com/volatiletech/sqlboiler) |
+| [go-redis](https://github.com/redis/go-redis) | Redis client with clustering, pub/sub, caching, and Sentinel support. | [![Stars](https://img.shields.io/github/stars/redis/go-redis?style=social)](https://github.com/redis/go-redis) |
 
 ---
 
@@ -122,6 +131,8 @@
 | [mock](https://github.com/golang/mock) | Mocking framework with code generation (gomock). | [![Stars](https://img.shields.io/github/stars/golang/mock?style=social)](https://github.com/golang/mock) |
 | [ginkgo](https://github.com/onsi/ginkgo) | BDD-style testing framework (often paired with Gomega). | [![Stars](https://img.shields.io/github/stars/onsi/ginkgo?style=social)](https://github.com/onsi/ginkgo) |
 | [gotestsum](https://github.com/gotestyourself/gotestsum) | Enhanced `go test` runner with pretty output and JUnit XML. | [![Stars](https://img.shields.io/github/stars/gotestyourself/gotestsum?style=social)](https://github.com/gotestyourself/gotestsum) |
+| [mockery](https://github.com/vektra/mockery) | Mock code autogenerator for Go interfaces using testify. | [![Stars](https://img.shields.io/github/stars/vektra/mockery?style=social)](https://github.com/vektra/mockery) |
+| [gock](https://github.com/h2non/gock) | HTTP mocking library with regex matching and persistence. | [![Stars](https://img.shields.io/github/stars/h2non/gock?style=social)](https://github.com/h2non/gock) |
 
 ---
 
@@ -131,8 +142,40 @@
 |---------|-------------|-------|
 | [slog](https://pkg.go.dev/log/slog) | Structured logging (stdlib since Go 1.21). | — |
 | [zap](https://github.com/uber-go/zap) | Blazing-fast, structured, leveled logging. | [![Stars](https://img.shields.io/github/stars/uber-go/zap?style=social)](https://github.com/uber-go/zap) |
+| [logrus](https://github.com/sirupsen/logrus) | Structured logging optimized for JSON output, API-compatible with stdlib. | [![Stars](https://img.shields.io/github/stars/sirupsen/logrus?style=social)](https://github.com/sirupsen/logrus) |
+| [zerolog](https://github.com/rs/zerolog) | Zero-allocation, fast JSON logging library for Go. | [![Stars](https://img.shields.io/github/stars/rs/zerolog?style=social)](https://github.com/rs/zerolog) |
 | [validator](https://github.com/go-playground/validator) | Struct/field validation with rich tags and custom rules. | [![Stars](https://img.shields.io/github/stars/go-playground/validator?style=social)](https://github.com/go-playground/validator) |
 | [pointer](https://github.com/xorcare/pointer) | Helper functions for working with pointers to primitives. | [![Stars](https://img.shields.io/github/stars/xorcare/pointer?style=social)](https://github.com/xorcare/pointer) |
+| [viper](https://github.com/spf13/viper) | Complete configuration solution: JSON, YAML, TOML, env vars, remote configs. | [![Stars](https://img.shields.io/github/stars/spf13/viper?style=social)](https://github.com/spf13/viper) |
+| [retryablehttp](https://github.com/hashicorp/go-retryablehttp) | HTTP client with automatic retries and exponential backoff. | [![Stars](https://img.shields.io/github/stars/hashicorp/go-retryablehttp?style=social)](https://github.com/hashicorp/go-retryablehttp) |
+| [retry-go](https://github.com/avast/retry-go) | Simple retry mechanism for Go with customizable backoff strategies. | [![Stars](https://img.shields.io/github/stars/avast/retry-go?style=social)](https://github.com/avast/retry-go) |
+
+---
+
+### 📨 Messaging & Queues
+
+| Package | Description | Stars |
+|---------|-------------|-------|
+| [kafka-go](https://github.com/segmentio/kafka-go) | Kafka library for Go with high-level API and consumer group support. | [![Stars](https://img.shields.io/github/stars/segmentio/kafka-go?style=social)](https://github.com/segmentio/kafka-go) |
+| [amqp](https://github.com/rabbitmq/amqp091-go) | Official RabbitMQ AMQP 0.9.1 client for Go. | [![Stars](https://img.shields.io/github/stars/rabbitmq/amqp091-go?style=social)](https://github.com/rabbitmq/amqp091-go) |
+| [nsq](https://github.com/nsqio/nsq) | Realtime distributed messaging platform designed for scale and reliability. | [![Stars](https://img.shields.io/github/stars/nsqio/nsq?style=social)](https://github.com/nsqio/nsq) |
+
+---
+
+### 📁 File Storage
+
+| Package | Description | Stars |
+|---------|-------------|-------|
+| [minio-go](https://github.com/minio/minio-go) | MinIO Client SDK for Go — S3-compatible object storage with full API support. | [![Stars](https://img.shields.io/github/stars/minio/minio-go?style=social)](https://github.com/minio/minio-go) |
+
+---
+
+### ⏰ Scheduling
+
+| Package | Description | Stars |
+|---------|-------------|-------|
+| [gocron](https://github.com/go-co-op/gocron) | Job scheduling package for Go with cron-like syntax, timezones, and features. | [![Stars](https://img.shields.io/github/stars/go-co-op/gocron?style=social)](https://github.com/go-co-op/gocron) |
+| [cron](https://github.com/robfig/cron) | Cron library for Go with Quartz-compatible scheduler and time zone support. | [![Stars](https://img.shields.io/github/stars/robfig/cron?style=social)](https://github.com/robfig/cron) |
 
 ---
 
@@ -140,10 +183,11 @@
 
 | Package | Description | Stars |
 |---------|-------------|-------|
-| [ants](https://github.com/panjf2000/ants) | High-performance goroutine pool with auto-scaling. | [![Stars](https://img.shields.io/github/stars/panjf2000/ants?style=social)](https://github.com/panjf2000/ants) |
-| [tunny](https://github.com/Jeffail/tunny) | Simple, flexible goroutine worker pool. | [![Stars](https://img.shields.io/github/stars/Jeffail/tunny?style=social)](https://github.com/Jeffail/tunny) |
+| [ants](https://github.com/panjf2000/ants) | High-performance goroutine pool with auto-scaling and rate limiting. | [![Stars](https://img.shields.io/github/stars/panjf2000/ants?style=social)](https://github.com/panjf2000/ants) |
+| [tunny](https://github.com/Jeffail/tunny) | Simple, flexible goroutine worker pool with context support. | [![Stars](https://img.shields.io/github/stars/Jeffail/tunny?style=social)](https://github.com/Jeffail/tunny) |
 | [errgroup](https://pkg.go.dev/golang.org/x/sync/errgroup) | Synchronize goroutines and propagate errors (`x/sync`). | — |
 | [stream](https://github.com/youthlin/stream) | Java 8-like Stream API: map, filter, reduce, and more. | [![Stars](https://img.shields.io/github/stars/youthlin/stream?style=social)](https://github.com/youthlin/stream) |
+| [conc](https://github.com/sourcegraph/conc) | Better structured concurrency for Go with error handling and panic safety. | [![Stars](https://img.shields.io/github/stars/sourcegraph/conc?style=social)](https://github.com/sourcegraph/conc) |
 
 ---
 
@@ -152,8 +196,8 @@
 | Package | Description | Stars |
 |---------|-------------|-------|
 | [gorgonia](https://github.com/gorgonia/gorgonia) | Graph-based computational library for ML (like Theano for Go). | [![Stars](https://img.shields.io/github/stars/gorgonia/gorgonia?style=social)](https://github.com/gorgonia/gorgonia) |
-| [goml](https://github.com/cdipaolo/goml) | On-line machine learning library in pure Go. | [![Stars](https://img.shields.io/github/stars/cdipaolo/goml?style=social)](https://github.com/cdipaolo/goml) |
-| [onnx-go](https://github.com/owulveryck/onnx-go) | Import and run ONNX models in pure Go. | [![Stars](https://img.shields.io/github/stars/owulveryck/onnx-go?style=social)](https://github.com/owulveryck/onnx-go) |
+| [goml](https://github.com/cdipaolo/goml) | On-line machine learning library in pure Go with streaming support. | [![Stars](https://img.shields.io/github/stars/cdipaolo/goml?style=social)](https://github.com/cdipaolo/goml) |
+| [onnx-go](https://github.com/owulveryck/onnx-go) | Import and run ONNX models in pure Go with backend flexibility. | [![Stars](https://img.shields.io/github/stars/owulveryck/onnx-go?style=social)](https://github.com/owulveryck/onnx-go) |
 
 ---
 
@@ -163,7 +207,7 @@
 |---------|-------------|-------|
 | [go-app](https://github.com/maxence-charriere/go-app) | Build progressive web apps (PWAs) in pure Go + WebAssembly. | [![Stars](https://img.shields.io/github/stars/maxence-charriere/go-app?style=social)](https://github.com/maxence-charriere/go-app) |
 | [wails](https://github.com/wailsapp/wails) | Build desktop apps with Go backend + web frontend (like Electron, but Go). | [![Stars](https://img.shields.io/github/stars/wailsapp/wails?style=social)](https://github.com/wailsapp/wails) |
-| [fyne](https://github.com/fyne-io/fyne) | Cross-platform GUI toolkit with Material Design. | [![Stars](https://img.shields.io/github/stars/fyne-io/fyne?style=social)](https://github.com/fyne-io/fyne) |
+| [fyne](https://github.com/fyne-io/fyne) | Cross-platform GUI toolkit with Material Design and native widgets. | [![Stars](https://img.shields.io/github/stars/fyne-io/fyne?style=social)](https://github.com/fyne-io/fyne) |
 
 ---
 
@@ -177,3 +221,35 @@ We ❤️ contributions! Add a package, fix a typo, or suggest a new category.
 3. Add your entry **alphabetically** within the section:
    ```markdown
    | [repo-name](https://github.com/user/repo) | Short, clear description. | [![Stars](badge)](link) |
+   ## 🤝 Contributing
+
+We ❤️ contributions! Add a package, fix a typo, or suggest a new category.
+
+### How to Add a Package:
+1. Fork the repo
+2. Find the right category (or propose a new one)
+3. Add your entry **alphabetically** within the section:
+   ```markdown
+   | [repo-name](https://github.com/user/repo) | Short, clear description. | [![Stars](badge)](link) |
+   ```
+
+Ensure the repo:
+✅ Is written in Go 🐹
+✅ Has a go.mod file (or stdlib-compatible)
+✅ Is actively maintained or historically significant
+✅ Has an open-source license
+
+Submit a PR with title: `feat(scrapers): add PackageName`
+
+📖 See CONTRIBUTING.md for full guidelines.
+
+## 📜 License
+This list is licensed under the MIT License. Individual packages retain their original licenses — always verify before use.
+
+🐹 Made with ❤️ by the Build With Go community
+
+🏠 [Organization](https://github.com/build-with-go) • 📝 [Suggest a Package](https://github.com/build-with-go/awesome-golang-scrapers/issues/new?assignees=&labels=&template=suggest-a-package.md&title=)
+
+**Last updated: April 2026** • Compatible with Go 1.21+
+
+   
