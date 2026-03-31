@@ -47,7 +47,8 @@
 1. Browse categories via the Table of Contents  
 2. Click a package name to visit its GitHub repo  
 3. Read the description and check `go.mod` compatibility  
-4. ⭐ Star repos you like — it helps maintainers!  
+4. Star repos you like — it helps maintainers!
+5. > 💡 **Note**: Packages marked with ⭐ are created by [@ez0000001000000](https://github.com/ez0000001000000).
 
 🔎 *Search tip*: Use `Ctrl+F` / `Cmd+F` to find packages fast.
 
