@@ -1,5 +1,3 @@
----
-
 # 📘 GoBook
 
 > An awesome, curated list of Go packages, modules, and libraries on GitHub.  
