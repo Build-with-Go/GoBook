@@ -63,9 +63,9 @@
 | [colly](https://github.com/gocolly/colly) | Elegant, fast scraping framework. Supports async, cookies, headers, robots.txt. | [![Stars](https://img.shields.io/github/stars/gocolly/colly?style=social)](https://github.com/gocolly/colly) |
 | [goquery](https://github.com/PuerkitoBio/goquery) | jQuery-like DOM parsing and traversal using CSS selectors. | [![Stars](https://img.shields.io/github/stars/PuerkitoBio/goquery?style=social)](https://github.com/PuerkitoBio/goquery) |
 | [htmlquery](https://github.com/antchfx/htmlquery) | XPath query support for HTML/XML documents with streaming. | [![Stars](https://img.shields.io/github/stars/antchfx/htmlquery?style=social)](https://github.com/antchfx/htmlquery) |
-| [scraper](https://github.com/imroc/scraper) | Structured data extraction using declarative schemas. Great for APIs and semi-structured HTML. | [![Stars](https://img.shields.io/github/stars/imroc/scraper?style=social)](https://github.com/imroc/scraper) |
+| [rod](https://github.com/go-rod/rod) | DevTools driver for browser automation and scraping. High-level API, headless Chrome support. | [![Stars](https://img.shields.io/github/stars/go-rod/rod?style=social)](https://github.com/go-rod/rod) |
 
-> 🛠️ *Building a scraper? Start with [Goop](https://github.com/ez0000001000000/Goop) — designed for simplicity and rapid prototyping.*
+> 🛠️ *Building a scraper? Start with [Goop](https://github.com/ez0000001000000/Goop) for simple tasks, or [rod](https://github.com/go-rod/rod) for dynamic JS-heavy sites.*
 
 ---
 
@@ -109,7 +109,7 @@
 | [jwt](https://github.com/golang-jwt/jwt) | Reliable, well-maintained JWT implementation for Go. | [![Stars](https://img.shields.io/github/stars/golang-jwt/jwt?style=social)](https://github.com/golang-jwt/jwt) |
 | [bcrypt](https://github.com/golang/crypto/tree/master/bcrypt) | Secure password hashing (part of `golang.org/x/crypto`). | — |
 | [casbin](https://github.com/casbin/casbin) | Authorization library supporting ACL, RBAC, ABAC. | [![Stars](https://img.shields.io/github/stars/casbin/casbin?style=social)](https://github.com/casbin/casbin) |
-| [otp](https://github.com/xlzd/go-otp) | One-Time Password (TOTP/HOTP) implementation. | [![Stars](https://img.shields.io/github/stars/xlzd/go-otp?style=social)](https://github.com/xlzd/go-otp) |
+| [otp](https://github.com/pquerna/otp) | Standards-compliant HOTP (RFC 4226) and TOTP (RFC 6238) implementation for 2FA. | [![Stars](https://img.shields.io/github/stars/pquerna/otp?style=social)](https://github.com/pquerna/otp) |
 
 ---
 
