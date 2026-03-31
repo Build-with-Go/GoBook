@@ -221,16 +221,6 @@ We ❤️ contributions! Add a package, fix a typo, or suggest a new category.
 3. Add your entry **alphabetically** within the section:
    ```markdown
    | [repo-name](https://github.com/user/repo) | Short, clear description. | [![Stars](badge)](link) |
-   ## 🤝 Contributing
-
-We ❤️ contributions! Add a package, fix a typo, or suggest a new category.
-
-### How to Add a Package:
-1. Fork the repo
-2. Find the right category (or propose a new one)
-3. Add your entry **alphabetically** within the section:
-   ```markdown
-   | [repo-name](https://github.com/user/repo) | Short, clear description. | [![Stars](badge)](link) |
    ```
 
 Ensure the repo:
